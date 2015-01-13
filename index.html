@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<title>Plate Readers</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<style>
+		.form-horizontal .control-label { width: 250px; }
+		.form-horizontal .controls { margin-left: 275px; }
+		body {
+			padding: 50px;
+			font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+		}
+		div {
+			padding: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Plate Reader</h1>
+		<ul id="main-tabs" class="nav nav-tabs">
+			<li class="active">
+				<a href="#devices-tab" data-toggle="tab">Devices</a>
+			</li>
+			<li>
+				<a href="#experiments-tab" data-toggle="tab">Experiments</a>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div id="devices-tab" class="tab-pane active">
+				<div id="devices"></div>
+			</div>
+			<div id="experiments-tab" class="tab-pane">
+				This is the experiments tab.
+			</div>
+		</div>
+	</div>
+
+<script src="platereader.js"></script>
+
+</body>
+
+</html>
